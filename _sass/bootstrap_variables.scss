@@ -1,0 +1,22 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+$custom-gold: #ffcc00;
+$custom-white: #e8e8e8;
+$custom-bg: #ffffff;
+$custom-headers: #ffffff;
+$custom-blue: #6c2dc7;
+$custom-gray: #252525;
+
+
+
+
+$theme-colors: (
+  "primary": #ffcc00,
+  "secondary": #0066CC,
+);
+
+
+
+// PUT ALL BEFORE
+@import "../node_modules/bootstrap/scss/bootstrap";
